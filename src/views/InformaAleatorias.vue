@@ -33,7 +33,6 @@
 
     <h2>Sugestões:</h2>
 
-<br>
 
 <div id="livro1">  
     <br>

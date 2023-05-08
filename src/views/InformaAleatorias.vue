@@ -58,7 +58,7 @@
             Começa assim a busca desesperada do protagonista para esclarecer o que ocorreu na noite anterior. 
             Juntando algumas poucas pistas, Yu-jin tentará montar o quebra-cabeça e descobrir o assassino. 
             Conforme prossegue na investigação, procurará na própria memória as explicações para o crime, mas o passado esconde armadilhas mais tenebrosas do que ele pode prever. 
-        <br><br><br><br>
+        <br><br><br>
         </p>
 
     </div>    
@@ -121,7 +121,7 @@
             Amar a nossa falta mesma de amor,<br>
             e na secura nossa amar a água implícita,<br>
             e o beijo tácito, e a sede infinita.<br>
-            <br><br><br> 
+            <br><br>
         </p>
 
     </div>

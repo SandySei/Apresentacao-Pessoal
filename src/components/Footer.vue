@@ -7,6 +7,7 @@ export default {}
     <div id="Footer">
         <div id="notes">
 
+            
            <p>By sandyalves98@hotmail.com</p>
            <RouterLink to="/rede" class="btn btn-white btn-animate">Contato</RouterLink> 
 

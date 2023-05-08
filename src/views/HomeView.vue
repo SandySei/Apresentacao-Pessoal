@@ -84,7 +84,7 @@ h1 {
 h2 {
     color: black;
     font-family:Arial;
-	font-size:20px;
+	font-size:25px;
 }
 
 div#box {
@@ -116,21 +116,21 @@ h3 {
     margin-bottom: 1vh;
     text-transform: uppercase;
     font-family:Arial;
-	font-size:40px;
+	font-size:45px;
 	font-weight:bold;
 }
 
 h4 {
     color: rgb(255, 255, 255);
     font-family:Arial;
-	font-size:20px;
+	font-size:23px;
 	font-weight:bold;
 }
 
 p {
     color: rgb(0, 0, 0);
     font-family:Arial;
-	font-size:20px;
+	font-size:23px;
 	font-weight:bold;
 }
 

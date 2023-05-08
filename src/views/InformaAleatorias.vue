@@ -35,6 +35,7 @@
 <br>
 
 <div id="livro1">  
+    <br>
     <h3>Livro: O bom Filho</h3>
 
 <br><br>
@@ -58,7 +59,7 @@
             Começa assim a busca desesperada do protagonista para esclarecer o que ocorreu na noite anterior. 
             Juntando algumas poucas pistas, Yu-jin tentará montar o quebra-cabeça e descobrir o assassino. 
             Conforme prossegue na investigação, procurará na própria memória as explicações para o crime, mas o passado esconde armadilhas mais tenebrosas do que ele pode prever. 
-        <br><br><br>
+        <br><br>
         </p>
 
     </div>    
@@ -86,6 +87,7 @@
 <br>
 <br>
 <div id="Poemas1">
+    <br>
     <h3>Poema: Amar de Carlos Drummond de Andrade </h3>  
    
 <br>
@@ -149,7 +151,7 @@ iframe {
 }
 
 div#familia > img {
-    margin-left: 23vw;
+    margin-left: 25vw;
 }
 
 
@@ -198,7 +200,7 @@ div#pets div{
 div#livro1 {
     background-color: #70707083;
     width: 70vw;
-    height: 55vh;
+    height: 52vh;
     margin-left: 14vw;
     justify-content: center;
     align-items: center;
@@ -211,7 +213,7 @@ p {
     text-align: justify;
     margin-left: 2vw;
     font-family:Arial;
-    font-size:15px;
+    font-size:16px;
 }
 
 a {

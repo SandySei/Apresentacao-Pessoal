@@ -39,7 +39,7 @@
     <br>
     <h3>Livro: O bom Filho</h3>
 
-<br><br>
+<br>
    
     <div id="livro2">
          <img src="/arquivos/ObomFilho.jpg" alt="Capa o Bom Filho" height="300" string="left">

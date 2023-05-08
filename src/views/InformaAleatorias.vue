@@ -30,7 +30,7 @@
 <br>
 <hr>
 
-    <h2>Curiosidades:</h2>
+    <h2>Sugestões:</h2>
 
 <br>
 
@@ -68,7 +68,7 @@
 <br>
 <br>
 
-    <h3>Musicas:</h3>
+    <h3>Musicas: Rap Italiano</h3>
 
 <br>
 

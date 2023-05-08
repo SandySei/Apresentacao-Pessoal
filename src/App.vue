@@ -1,40 +1,30 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
   
-    <div class="wrapper">
+  <div class="wrapper">
       
-  <Header/>
+    <Header/>
 
-  <main>
-   <RouterView />
-  </main>
- 
- <footer>
-  Rodapé
- </footer>
+    <main>
+      <RouterView />
+    </main>
+  
+    <Footer/>
 
-</div>
+  </div>
 
 </template>
 
 <style scoped>
 
-
-
 main {
- padding-top: 8vh;
- background-color: aqua;
- min-height: 120vh;
-
+ padding-top: 6vh;
+ background-color: rgb(255, 255, 255);
 }
-
-footer {
- background-color: blueviolet;
-}
-
 
 </style>

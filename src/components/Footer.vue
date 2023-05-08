@@ -1,45 +1,45 @@
-
 <script>
 export default {}
 </script>
 
 <template>
-    <header>
-        <img src="/arquivos/San1.png" alt="Logo San" width="50">
 
-        <nav>
-            <RouterLink to="/" class="btn btn-white btn-animate">Página Inicial</RouterLink>  
-            <RouterLink to="/aleatorios" class="btn btn-white btn-animate">Informações Aleatórias</RouterLink>  
-            <RouterLink to="/rede" class="btn btn-white btn-animate">Redes Sociais</RouterLink> 
-            <a href="https://sandyalves98.wixsite.com/sandy-seixas" class="btn btn-white btn-animate" target="_blank">Portfólio</a> 
-            
-        </nav>
-    </header>
+    <div id="Footer">
+        <div id="notes">
+
+           <p>By sandyalves98@hotmail.com</p>
+           <RouterLink to="/rede" class="btn btn-white btn-animate">Contato</RouterLink> 
+
+        </div>
+
+    </div>
 
 </template>
 
-
-
 <style scoped>
 
-header {
-    background-color: #000000;
-    position: fixed;
-    z-index: 1;
-    width: 100vw;
+div#Footer {
+ background-color: #000000;
+ min-height: 4vh;
+}
+
+div#notes {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    height: 6vh;
-    box-shadow: 0px 3px 0px 0px #033691;
-   }
+}
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    width: 34%;
-   }
-
+p, a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: inline-block;
+    font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+}
 a.btn:link {
     text-transform: uppercase;
     text-decoration: none;

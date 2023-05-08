@@ -1,11 +1,137 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+<body>
+
+    <div id="top"> 
+        <div>
+            <h1> Sandy Seixas</h1>
+            <h2>@1998</h2>
+        </div> 
+        <img src="/arquivos/Sandy.png" alt="Essa Sou Eu" width="450">
+    </div>
+
+    <div id="box">
+        <div>
+            <h3>Dados:</h3><br>
+
+            <h4>Nome:</h4> 
+            <p>Sandy Alves Seixas</p><br>
+
+            <h4>Data de Nascimento:</h4> 
+            <p>17 de Dezembro de 1998</p><br>
+
+            <h4>Signo:</h4> 
+            <p>Sagitário</p><br>
+
+            <h4>Telefone:</h4> 
+            <p>+55 (41) 9 9757-6128</p><br>
+
+            <h4>E-mail:</h4> 
+            <p>sandyalves98@hotmail.com</p><br>
+
+            <h4>Endereço:</h4> 
+            <p>Avenida Marechal Floriano Peixoto</p>
+            <p>Curitiba -PR</p>
+        </div>
+
+        <div> 
+            <h4>Cursos:</h4> 
+            <p>Analise e Desenvolvimento de Sistemas (PUCPR)</p><br>
+            <p>Marketing Digital Full Stack (Centro Europeu)</p><br>
+            <p>Veu.Js (Snow Man Labs)</p><br><br>
+
+            <h4>Jogo Atual:</h4> 
+            <p>Hay Day (Tag para add: #P2VO2GC2)</p><br>
+            <p>Genshin Impact (UID para add: 662339728)</p><br>
+           
+        </div>
+    </div>
+
+</body>
 </template>
 
-<style></style>
+<style scoped>
+
+
+body {
+    background-image: url(/arquivos/fundoconcreto.jpg);
+    background-size: cover;
+    min-height: 140vh;
+    background-attachment: fixed;
+}
+
+div#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div#top div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+h1 {
+    color: black;
+    text-transform: uppercase;
+    font-family:Arial;
+	font-size:100px;
+	font-weight:bold;
+}
+
+h2 {
+    color: black;
+    font-family:Arial;
+	font-size:20px;
+}
+
+div#box {
+    background-color: #001e5283;
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    height: 70vh;
+    margin-left: 14vw;
+    margin-top: 5vh;
+    border: 3px solid #c4c4c486;
+    filter: saturate(0%);
+}
+
+div#box:hover {
+    -webkit-filter:grayscale(0%);
+}
+
+div#box > div {
+    width: 50%;
+    margin-left: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 1vh;
+    text-transform: uppercase;
+    font-family:Arial;
+	font-size:40px;
+	font-weight:bold;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+}
+
+</style>

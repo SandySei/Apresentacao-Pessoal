@@ -9,7 +9,21 @@ export default {}
 
             
            <p>By sandyalves98@hotmail.com</p>
-           <RouterLink to="/rede" class="btn btn-white btn-animate">Contato</RouterLink> 
+
+           <a href="https://github.com/SandySei" class="btn btn-white btn-animate" target="_blank" style="display: flex; align-items: center;">
+                    Git Hub&emsp;
+                    <img src="/arquivos/Git.png" alt="Logo GitHub" width="30">
+
+                    <a href="https://www.linkedin.com/in/sandyseixas" class="btn btn-white btn-animate" target="_blank" style="display: flex; align-items: center;">
+                    LinkedIn&emsp;      
+                    <img src="/arquivos/Linkedin.png" alt="Logo LinkedIn" width="30">
+                </a> 
+            
+                <a href="https://wa.me/5541997576128" class="btn btn-white btn-animate" target="_blank" style="display: flex; align-items: center;">
+                    WhatsApp&emsp;
+                    <img src="/arquivos/Whatsapp.png" alt="Logo Whats" width="30">
+                </a> 
+             </a> 
 
         </div>
 

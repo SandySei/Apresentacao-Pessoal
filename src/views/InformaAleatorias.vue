@@ -72,10 +72,11 @@
 
 <br>
 
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7BgEOZ9w3Y4IMShXTMu1nN?utm_source=generator" 
-        width="60%" 
+    <iframe style="border-radius:0%" src="https://open.spotify.com/embed/artist/7BgEOZ9w3Y4IMShXTMu1nN?utm_source=generator" 
+        width="71%" 
         height="452" 
         frameBorder="0" 
+        allowtransparency="true"
         allowfullscreen="false" 
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
         loading="lazy">

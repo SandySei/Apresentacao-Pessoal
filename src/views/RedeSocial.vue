@@ -23,19 +23,6 @@
                     WhatsApp
                     <img src="/arquivos/Whatsapp.png" alt="Logo Whats" width="50">
                 </a> 
-                
-                
-                <a href="https://www.instagram.com/sandy.sei/" class="btn btn-white btn-animate" target="_blank">
-                    Instagram
-                    <img src="/arquivos/instagram.png" alt="Logo Instagram" width="50">
-                </a> 
-                
-
-                <a href="https://www.facebook.com/sandy.alves.754" class="btn btn-white btn-animate" target="_blank">
-                    Facebook
-                    <img src="/arquivos/Facebook.png" alt="Logo Instagram" width="50">
-                </a> 
-
             </div>
         
     </div>

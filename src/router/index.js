@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import RedeSocial from '../views/RedeSocial.vue'
-import InformaAleatorias from '../views/InformaAleatorias.vue'
+import Sugestoes from '../views/Sugestoes.vue'
+import Familia from '../views/Familia.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,14 +12,14 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/rede',
-      name: 'rede',
-      component: RedeSocial
+      path: '/sugestoes',
+      name: 'sugestoes',
+      component: Sugestoes
     },
     {
-      path: '/aleatorios',
-      name: 'aleatorios',
-      component: InformaAleatorias
+      path: '/familia',
+      name: 'familia',
+      component: Familia
     },
 
   ]

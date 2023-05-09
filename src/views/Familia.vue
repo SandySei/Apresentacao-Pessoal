@@ -39,14 +39,6 @@ body {
     background-attachment: fixed;
 }
 
-iframe {
-    display: flex;
-    flex-direction: column;
-    height: 65vh;
-    margin-left: auto;
-    margin-right: auto; 
-}
-
 div#familia > img {
     margin-left: 25vw;
 }
@@ -83,8 +75,10 @@ h4 {
 img {
     border-radius: 230px;
     border: 4px solid #bdbdbd;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -94,17 +88,6 @@ div#pets div{
     margin-left: 14vw;
 }
 
-div#livro1 {
-    background-color: #70707083;
-    width: 70vw;
-    height: 52vh;
-    margin-left: 14vw;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5vh;
-    border: 3px solid #c4c4c486;
-  
-}
 
 p {
     text-align: justify;
@@ -117,36 +100,6 @@ a {
     color: #004fd6;
     font-family:Arial;
     font-size:15px;
-}
-
-
-div#livro2 {
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 5vw;
-    margin-right: 5vw; 
-}
-
-div#Poemas1 {
-    background-color: #70707083;
-    width: 70vw;
-    height: 70vh;
-    margin-left: 14vw;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5vh;
-    border: 3px solid #c4c4c486;
-}
-
-div#Poemas2 > p  {
-    margin-left: 15vw;
-    margin-right: 15vw; 
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 
 </style>

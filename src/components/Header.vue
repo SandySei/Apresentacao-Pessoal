@@ -9,8 +9,8 @@ export default {}
 
         <nav>
             <RouterLink to="/" class="btn btn-white btn-animate">Página Inicial</RouterLink>  
-            <RouterLink to="/aleatorios" class="btn btn-white btn-animate">Família</RouterLink>  
-            <RouterLink to="/rede" class="btn btn-white btn-animate">Sugestões</RouterLink> 
+            <RouterLink to="/familia" class="btn btn-white btn-animate">Família</RouterLink>  
+            <RouterLink to="/sugestoes" class="btn btn-white btn-animate">Sugestões</RouterLink> 
             <a href="https://sandyalves98.wixsite.com/sandy-seixas" class="btn btn-white btn-animate" target="_blank">Portfólio</a> 
             
         </nav>

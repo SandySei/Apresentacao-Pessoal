@@ -167,6 +167,7 @@ div#livro1 {
     align-items: center;
     margin-top: 5vh;
     border: 3px solid #c4c4c486;
+    border-radius: 10px;
   
 }
 
@@ -182,12 +183,15 @@ a {
     font-size:15px;
 }
 
+#livro2 img {
+  margin-right: 20px;
+}
 
 div#livro2 {
     display: inline-block;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin-left: 5vw;
     margin-right: 5vw; 
 }
@@ -200,6 +204,7 @@ div#Poemas1 {
     align-items: center;
     margin-top: 5vh;
     border: 3px solid #c4c4c486;
+    border-radius: 10px;
 }
 
 div#Poemas2 > p  {

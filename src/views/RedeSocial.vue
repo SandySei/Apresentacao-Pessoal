@@ -1,114 +1,215 @@
 <template>
-    <div>
+    <body>
+<h2>Sugestões:</h2>
 
+
+<div id="livro1">  
+    <br>
+    <h3>Livro: O bom Filho</h3>
+
+<br>
+   
+    <div id="livro2">
+         <img src="/arquivos/ObomFilho.jpg" alt="Capa o Bom Filho" height="300" string="left">
+        <p>O bom filho, fenômeno literário que rendeu a You-jeong Jeong o apelido de "Stephen King coreana", é um thriller psicológico e um mergulho no que há de mais sombrio na alma humana. 
+            A cada resposta abrem-se mais perguntas. Neste romance perturbador e surpreendente o terror se esconde onde menos se espera.
         <br><br>
-        <h1>Contatos:</h1>
-        <br>
+            Segue Resumo segundo 
+            <a href="https://books.google.com.br/books/about/O_bom_filho.html?id=pRCeDwAAQBAJ&source=kp_book_description&redir_esc=y" target="_blank">Google Books: </a>
+        <br><br>
+            Jovem com um futuro brilhante, Yu-jin vê sua carreira ser interrompida pela epilepsia.
+            Os remédios que previnem seus ataques acabam por cobrar um preço alto, e o sonho de ser um esportista é sepultado para sempre.
+            Isso não o impede de sair escondido todas as noites para correr, contrariando sua mãe. 
+            Para ele, os riscos à saúde não se comparam aos prazeres da velocidade e da força. 
+            Numa manhã qualquer, Yu-jin desperta sentindo cheiro de sangue. 
+            Tudo indica que tenha sofrido um ataque epiléptico à noite, mas, ao percorrer o apartamento, encontra o corpo da mãe ao pé da escada. 
+            Aos poucos, sua memória vai voltando, e ele tem a lembrança de tê-la ouvido chamar seu nome. 
+            Não está certo, no entanto, se ela pedia ajuda ou se tentava salvar a própria vida. 
+            Começa assim a busca desesperada do protagonista para esclarecer o que ocorreu na noite anterior. 
+            Juntando algumas poucas pistas, Yu-jin tentará montar o quebra-cabeça e descobrir o assassino. 
+            Conforme prossegue na investigação, procurará na própria memória as explicações para o crime, mas o passado esconde armadilhas mais tenebrosas do que ele pode prever. 
+        <br><br>
+        </p>
 
-            <div id="links">
+    </div>    
+</div> 
 
-                <a href="https://github.com/SandySei" class="btn btn-white btn-animate" target="_blank">
-                    Git Hub
-                    <img src="/arquivos/Git.png" alt="Logo GitHub" width="50">
-                </a> 
-                
-                
-                <a href="https://www.linkedin.com/in/sandyseixas" class="btn btn-white btn-animate" target="_blank">
-                    LinkedIn        
-                    <img src="/arquivos/Linkedin.png" alt="Logo LinkedIn" width="50">
-                </a> 
-                
-            
-                <a href="https://wa.me/5541997576128" class="btn btn-white btn-animate" target="_blank">
-                    WhatsApp
-                    <img src="/arquivos/Whatsapp.png" alt="Logo Whats" width="50">
-                </a> 
-            </div>
-        
+<br>
+<br>
+
+    <h3>Musicas: Rap Italiano</h3>
+
+<br>
+
+    <iframe style="border-radius:0%" src="https://open.spotify.com/embed/artist/7BgEOZ9w3Y4IMShXTMu1nN?utm_source=generator" 
+        width="71%" 
+        height="452" 
+        frameBorder="0" 
+        allowtransparency="true"
+        allowfullscreen="false" 
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+        loading="lazy">
+    </iframe>
+
+    
+
+<br>
+<br>
+<br>
+<div id="Poemas1">
+    <br>
+    <h3>Poema: Amar de Carlos Drummond de Andrade </h3>  
+   
+<br>
+
+    <div id="Poemas2">
+        <p>
+            Que pode uma criatura senão,<br>
+            entre criaturas, amar?<br>
+            amar e esquecer, amar e malamar,<br>
+            amar, desamar, amar?<br>
+            sempre, e até de olhos vidrados, amar?<br>
+            <br>
+            Que pode, pergunto, o ser amoroso,<br>
+            sozinho, em rotação universal,<br>
+            senão rodar também, e amar?<br>
+            amar o que o mar traz à praia,<br>
+            o que ele sepulta, e o que, na brisa marinha,<br>
+            é sal, ou precisão de amor, ou simples ânsia?<br>
+            <br>
+            Amar solenemente as palmas do deserto,<br>
+            o que é entrega ou adoração expectante,<br>
+            e amar o inóspito, o cru,<br>
+            um vaso sem flor, um chão de ferro,<br>
+            e o peito inerte, e a rua vista em sonho, e<br>
+            uma ave de rapina.<br>
+            <br>
+            Este o nosso destino: amor sem conta,<br>
+            distribuído pelas coisas pérfidas ou nulas,<br>
+            doação ilimitada a uma completa ingratidão,<br>
+            e na concha vazia do amor a procura medrosa,<br>
+            paciente, de mais e mais amor.<br>
+            <br>
+            Amar a nossa falta mesma de amor,<br>
+            e na secura nossa amar a água implícita,<br>
+            e o beijo tácito, e a sede infinita.<br>
+            <br><br>
+        </p>
+
     </div>
+</div>
+<br><br><br> 
 
+</body>
 </template>
 
 <style scoped>
 
-div {
+body {
     background-image: url(/arquivos/fundoconcreto.jpg);
     background-size: cover;
-    height: 100vh;
+    min-height: 140vh;
     background-attachment: fixed;
-}
-
-div#links {
     display: flex;
     flex-direction: column;
-    height: 80vh;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center ;
 }
 
-div#links a {
+iframe {
     display: flex;
-    width: 50vw;
-    max-width: 40rem;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    height: 65vh;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
-h1 {
+
+
+h2 {
     color: #000000;
     font-family:Arial;
     font-size:50px;
     text-transform: uppercase;
     font-weight:bold;
-    text-align: center 
+    text-align: center;
+    line-height: 2.5;
 }
 
-a.btn:link {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 18px 25px;
-    display: inline-block;
-    border-radius: 50px;
-    transition: all .3s;
+h3 {
+    color: #000000;
     font-family:Arial;
-	font-size:30px;
+    font-size:25px;
+    text-transform: uppercase;
+    font-weight:bold;
+    text-align: center;
+    line-height: 2;
 }
 
-.btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 3px 5px #000000;
+h4 {
+    color: #000000;
+    font-family:Arial;
+    font-size:25px;
+    text-align: center;
+    line-height: 1;
 }
 
-.btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0 15px 10px rgb(0, 0, 0);
+img {
+    border-radius: 230px;
+    border: 4px solid #bdbdbd;
+    display: block;
+    text-align: center;
+
 }
 
-.btn-white {
-    background-color: #000000;
-    color: #ffffff;
+div#livro1 {
+    background-color: #70707083;
+    width: 70vw;
+    height: 52vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    border: 3px solid #c4c4c486;
+  
 }
 
-.btn::after {
-    content: "";
+p {
+    text-align: justify;
+    font-family:Arial;
+    font-size:16px;
+}
+
+a {
+    color: #004fd6;
+    font-family:Arial;
+    font-size:15px;
+}
+
+
+div#livro2 {
     display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw; 
 }
 
-.btn-white::after {
-    background-color: #033691
+div#Poemas1 {
+    background-color: #70707083;
+    width: 70vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    border: 3px solid #c4c4c486;
 }
 
-.btn:hover::after {
-    transform: scaleX(1.1) scaleY(1.4);
-    opacity: 0;
+div#Poemas2 > p  {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 </style>

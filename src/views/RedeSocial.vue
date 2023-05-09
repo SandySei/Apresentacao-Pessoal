@@ -42,8 +42,6 @@
 <br>
 
     <iframe style="border-radius:0%" src="https://open.spotify.com/embed/artist/7BgEOZ9w3Y4IMShXTMu1nN?utm_source=generator" 
-        width="71%" 
-        height="452" 
         frameBorder="0" 
         allowtransparency="true"
         allowfullscreen="false" 
@@ -120,8 +118,7 @@ iframe {
     display: flex;
     flex-direction: column;
     height: 65vh;
-    margin-left: auto;
-    margin-right: auto; 
+    width: 141vh;
 }
 
 

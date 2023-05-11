@@ -46,6 +46,9 @@ div#familia > img {
 
 h2 {
     color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family:Arial;
     font-size:50px;
     text-transform: uppercase;

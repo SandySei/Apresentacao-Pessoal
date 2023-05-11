@@ -45,7 +45,7 @@
         frameBorder="0" 
         allowtransparency="true"
         allowfullscreen="false" 
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture; transparency" 
         loading="lazy">
     </iframe>
 
@@ -118,7 +118,7 @@ iframe {
     display: flex;
     flex-direction: column;
     height: 65vh;
-    width: 141vh;
+    width: 142vh;
 }
 
 
@@ -161,7 +161,7 @@ img {
 
 div#livro1 {
     background-color: #70707083;
-    width: 70vw;
+    width: 142vh;
     height: 52vh;
     justify-content: center;
     align-items: center;
@@ -184,7 +184,7 @@ a {
 }
 
 #livro2 img {
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 div#livro2 {
@@ -198,7 +198,7 @@ div#livro2 {
 
 div#Poemas1 {
     background-color: #70707083;
-    width: 70vw;
+    width: 142vh;
     height: 70vh;
     justify-content: center;
     align-items: center;

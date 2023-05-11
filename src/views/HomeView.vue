@@ -97,6 +97,7 @@ div#box {
     margin-top: 5vh;
     border: 3px solid #c4c4c486;
     filter: saturate(0%);
+    border-radius: 10px;
 }
 
 div#box:hover {

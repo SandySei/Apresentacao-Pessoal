@@ -38,12 +38,21 @@ export default {
 
   <style>
 
-.fade {
-  animation-name: fadeIn, fadeOut;
-  animation-duration: 5s, 0.3s;
+.fade-enter-active{
+  opacity: 0;
+  transition: 0,3s;
+}
+.fade-leave-active {
+  opacity: 1;
+  transition: 0,3s;
 }
 
-
+.fade-enter{
+  opacity: 1;
+}
+.fade-leave-to {
+  opacity: 0;
+}
 
 
 .back-to-top img {
@@ -53,15 +62,15 @@ export default {
   display: flex;
   justify-content: flex-end;
   position: fixed;
-  bottom: 50px; /* Adjust as needed */
-  right: 20px; /* Adjust as needed */
+  bottom: 45px;
+  right: 10px; 
   width: 50px;
   height: 50px;
-  transition: 1s;
+
   border: none;
   border-radius: 50%;
   padding: 0;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 

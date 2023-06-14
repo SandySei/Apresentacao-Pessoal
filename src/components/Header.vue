@@ -18,8 +18,6 @@ export default {}
 
 </template>
 
-
-
 <style scoped>
 
 header {

@@ -17,5 +17,3 @@ Neste repositório, você encontrará os arquivos necessários para executar o s
 Sinta-se à vontade para explorar o código e fornecer feedbacks construtivos.
 
 Obrigado por visitar este repositório.
-
-Espero que este seja apenas o primeiro de muitos projetos!

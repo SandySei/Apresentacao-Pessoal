@@ -13,7 +13,7 @@ O objetivo deste site é aplicar os conceitos e conhecimentos adquiridos no curs
 ### Prévia do site foi publicado no Vercel: 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) [Click Aqui!](https://presentation-navy.vercel.app/)
 
-![Prévia](/)
+![Prévia](/Previa.png)
 
 Neste repositório, você encontrará os arquivos necessários para executar o site localmente ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white), bem como o código-fonte completo do projeto.
 

@@ -104,6 +104,7 @@ div#box {
 
 div#box:hover {
   -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 div#box > div {

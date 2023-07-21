@@ -1,5 +1,7 @@
 ## Iniciando com Vue.js
 
+SOMENTE WEB
+
 Este repositório representa o meu primeiro site criado em Vue.js, desenvolvido durante o Snow Academy de 2023.
 
 Este projeto marca o início da minha jornada no desenvolvimento web, onde estou aprendendo a utilizar o ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) para construir aplicações web.

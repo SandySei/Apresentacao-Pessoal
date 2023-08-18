@@ -35,7 +35,7 @@ body {
 }
 
 div#familia > img {
-  margin-left: 25vw;
+  margin-left: 20vw;
 }
 
 h2 {
@@ -67,6 +67,7 @@ h4 {
   font-size: 25px;
   text-align: center;
   line-height: 1;
+    margin-bottom: 30px;  
 }
 
 img {
@@ -81,7 +82,7 @@ img {
 div#pets div {
   width: 260px;
   display: inline-block;
-  margin-left: 14vw;
+  margin-left: 13vw;
 }
 
 p {

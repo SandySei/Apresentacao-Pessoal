@@ -57,7 +57,6 @@
 body {
   background-image: url(/arquivos/fundoconcreto.jpg);
   background-size: cover;
-  min-height: 115vh;
   background-attachment: fixed;
 }
 
@@ -94,9 +93,10 @@ div#box {
   display: flex;
   flex-direction: row;
   width: 70vw;
-  height: 55vh;
+  height: 70vh;
   margin-left: 14vw;
-  margin-top: 5vh;
+  margin-bottom: 30px;
+  padding-top: 8vh;
   border: 3px solid #c4c4c486;
   filter: saturate(0%);
   border-radius: 10px;

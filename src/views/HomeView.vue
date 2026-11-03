@@ -88,9 +88,10 @@ div#box {
   background-color: #001e5283;
   display: flex;
   flex-direction: row;
-  max-width: 1200px;
+  max-width: 760px;
   margin: 0 auto;
-  padding: clamp(25px, 4vw, 50px) 0;
+  padding: clamp(25px, 4vw, 45px) 0;
+  text-align: center;
   border: 3px solid #c4c4c486;
   filter: saturate(0%);
   border-radius: 10px;
@@ -106,7 +107,7 @@ div#box > div {
   padding: 0 clamp(20px, 4vw, 50px);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
 }
 
 h3 {
@@ -136,6 +137,7 @@ p {
 div.redes {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
   margin-top: 8px;
 }

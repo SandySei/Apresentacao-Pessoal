@@ -24,7 +24,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   padding: 0 20px 50px;
-  min-height: calc(100vh - 70px);
 }
 
 h2 {

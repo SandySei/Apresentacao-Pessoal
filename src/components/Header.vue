@@ -45,7 +45,9 @@ header {
     background-color: #000000;
     position: fixed;
     z-index: 1;
-    width: 100vw;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 70px;
     box-shadow: 0px 3px 0px 0px #033691;
    }

@@ -233,5 +233,10 @@ div#Poemas2 > p {
   #livro2 img {
     margin: 0 0 20px 0;
   }
+
+  /* Justificado em tela estreita abre buracos entre as palavras */
+  div#livro2 p {
+    text-align: left;
+  }
 }
 </style>

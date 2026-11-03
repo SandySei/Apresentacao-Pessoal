@@ -10,44 +10,30 @@
 
     <div id="box">
       <div>
-        <h3>Dados:</h3>
+        <h3>Sobre mim</h3>
         <br />
 
-        <h4>Nome:</h4>
-        <p>Sandy Alves Seixas</p>
-        <br />
-
-        <h4>Data de Nascimento:</h4>
-        <p>17 de Dezembro de 1998</p>
-        <br />
-
-        <h4>Signo:</h4>
-        <p>Sagitário</p>
-        <br />
-
-        <h4>Telefone:</h4>
-        <p>+55 (41) 9 9757-6128</p>
-        <br />
-      </div>
-
-      <div>
         <h4>E-mail:</h4>
         <p>sandyalves98@hotmail.com</p>
         <br />
 
-        <br />
-        <h4>Endereço:</h4>
-        <p>Avenida Marechal Floriano Peixoto</p>
-        <p>Curitiba -PR</p>
-        <br /><br />
+        <h4>Redes:</h4>
+        <div class="redes">
+          <a href="https://github.com/SandySei" class="btn btn-white" target="_blank">
+            GitHub
+            <img src="/arquivos/Git.png" alt="Logo GitHub" width="30" />
+          </a>
 
-        <h4>Cursos:</h4>
-        <p>Analise e Desenvolvimento de Sistemas (PUCPR)</p>
-        <br />
-        <p>Marketing Digital Full Stack (Centro Europeu)</p>
-        <br />
-        <p>Veu.Js (Snow Man Labs)</p>
-        <br /><br />
+          <a href="https://www.linkedin.com/in/sandyseixas" class="btn btn-white" target="_blank">
+            LinkedIn
+            <img src="/arquivos/Linkedin.png" alt="Logo LinkedIn" width="30" />
+          </a>
+
+          <a href="https://www.instagram.com/sany.sei/" class="btn btn-white" target="_blank">
+            Instagram
+            <img src="/arquivos/instagram.png" alt="Logo Instagram" width="30" />
+          </a>
+        </div>
       </div>
     </div>
   </body>
@@ -58,13 +44,18 @@ body {
   background-image: url(/arquivos/fundoconcreto.jpg);
   background-size: cover;
   background-attachment: fixed;
+  padding: 0 20px 40px;
 }
 
 div#top {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: clamp(20px, 4vw, 50px) 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: clamp(20px, 3vw, 40px);
 }
 
 div#top div {
@@ -74,29 +65,32 @@ div#top div {
   align-items: flex-end;
 }
 
+div#top img {
+  width: clamp(220px, 28vw, 340px);
+  height: auto;
+}
+
 h1 {
   color: black;
   text-transform: uppercase;
   font-family: Arial;
-  font-size: 100px;
+  font-size: clamp(38px, 6.5vw, 90px);
   font-weight: bold;
 }
 
 h2 {
   color: black;
   font-family: Arial;
-  font-size: 25px;
+  font-size: clamp(18px, 2vw, 25px);
 }
 
 div#box {
   background-color: #001e5283;
   display: flex;
   flex-direction: row;
-  width: 70vw;
-  height: 70vh;
-  margin-left: 14vw;
-  margin-bottom: 30px;
-  padding-top: 8vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: clamp(25px, 4vw, 50px) 0;
   border: 3px solid #c4c4c486;
   filter: saturate(0%);
   border-radius: 10px;
@@ -108,33 +102,65 @@ div#box:hover {
 }
 
 div#box > div {
-  width: 50%;
-  margin-left: 7vh;
+  width: 100%;
+  padding: 0 clamp(20px, 4vw, 50px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 h3 {
   color: rgb(255, 255, 255);
-  margin-bottom: 1vh;
+  margin-bottom: 10px;
   text-transform: uppercase;
   font-family: Arial;
-  font-size: 45px;
+  font-size: clamp(26px, 3.2vw, 40px);
   font-weight: bold;
 }
 
 h4 {
   color: rgb(255, 255, 255);
   font-family: Arial;
-  font-size: 23px;
+  font-size: clamp(16px, 1.6vw, 20px);
   font-weight: bold;
 }
 
 p {
   color: rgb(0, 0, 0);
   font-family: Arial;
-  font-size: 23px;
+  font-size: clamp(16px, 1.6vw, 20px);
   font-weight: bold;
+  word-break: break-word;
+}
+
+div.redes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+/* Celular */
+@media (max-width: 768px) {
+  div#top {
+    flex-direction: column-reverse;
+  }
+
+  div#top div {
+    align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  div#box {
+    flex-direction: column;
+    filter: saturate(100%);
+  }
+
+  div#box > div {
+    width: auto;
+  }
 }
 </style>

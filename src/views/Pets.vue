@@ -1,13 +1,5 @@
 <template>
   <body>
-    <div id="familia">
-      <h2>Família</h2>
-      <img src="/arquivos/Familia.jpeg" alt="Familia" height="500" />
-    </div>
-
-    <br />
-    <br />
-
     <h2>Pets</h2>
     <div id="pets">
       <div>
@@ -15,8 +7,8 @@
         <h4>Hannah</h4>
       </div>
       <div>
-        <img src="/arquivos/Nina.jpeg" alt="Essa é a Nina" height="450" />
-        <h4>Nina</h4>
+        <img src="/arquivos/Tobby.jpeg" alt="Esse é o Tobby" height="450" class="tobby" />
+        <h4>Tobby</h4>
       </div>
       <div>
         <img src="/arquivos/Ursa.jpeg" alt="Essa é a Ursa" height="450" />
@@ -30,12 +22,8 @@
 body {
   background-image: url(/arquivos/fundoconcreto.jpg);
   background-size: cover;
-  min-height: 145vh;
   background-attachment: fixed;
-}
-
-div#familia > img {
-  margin-left: 20vw;
+  padding: 0 20px 50px;
 }
 
 h2 {
@@ -44,30 +32,20 @@ h2 {
   align-items: center;
   justify-content: center;
   font-family: Arial;
-  font-size: 50px;
+  font-size: clamp(32px, 4vw, 50px);
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  line-height: 2.5;
-}
-
-h3 {
-  color: #000000;
-  font-family: Arial;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-  line-height: 2;
+  line-height: 2.2;
 }
 
 h4 {
   color: #000000;
   font-family: Arial;
-  font-size: 25px;
+  font-size: clamp(18px, 2vw, 25px);
   text-align: center;
   line-height: 1;
-    margin-bottom: 30px;  
+  margin: 15px 0 30px;
 }
 
 img {
@@ -79,22 +57,38 @@ img {
   align-items: center;
 }
 
+div#pets {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+div#pets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
 div#pets div {
-  width: 260px;
-  display: inline-block;
-  margin-left: 13vw;
+  width: clamp(200px, 25vw, 300px);
 }
 
-p {
-  text-align: justify;
-  margin-left: 2vw;
-  font-family: Arial;
-  font-size: 16px;
+div#pets img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 260 / 450;
+  object-fit: cover;
 }
 
-a {
-  color: #004fd6;
-  font-family: Arial;
-  font-size: 15px;
+div#pets img.tobby {
+  object-position: left center;
+}
+
+/* Celular */
+@media (max-width: 768px) {
+  div#pets div {
+    width: 70vw;
+    max-width: 260px;
+  }
 }
 </style>

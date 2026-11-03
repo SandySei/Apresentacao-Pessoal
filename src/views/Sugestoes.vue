@@ -1,10 +1,10 @@
 <template>
   <body>
-    <h2>Sugestões:</h2>
+    <h2>Recomendações</h2>
 
     <div id="livro1">
       <br />
-      <h3>Livro: O bom Filho</h3>
+      <h3>Livro: O Bom Filho</h3>
 
       <br />
 
@@ -53,7 +53,7 @@
     <br />
     <br />
 
-    <h3>Musicas: Rap Italiano</h3>
+    <h3>Músicas: Rap Italiano</h3>
 
     <br />
 
@@ -120,8 +120,8 @@
 body {
   background-image: url(/arquivos/fundoconcreto.jpg);
   background-size: cover;
-  min-height: 140vh;
   background-attachment: fixed;
+  padding: 0 20px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,37 +131,32 @@ body {
 iframe {
   display: flex;
   flex-direction: column;
-  height: 65vh;
-  width: 142vh;
+  height: 352px;
+  width: 100%;
+  max-width: 1200px;
 }
 
 h2 {
   color: #000000;
   font-family: Arial;
-  font-size: 50px;
+  font-size: clamp(32px, 4vw, 50px);
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  line-height: 2.5;
+  line-height: 2.2;
 }
 
 h3 {
   color: #000000;
   font-family: Arial;
-  font-size: 25px;
+  font-size: clamp(18px, 2vw, 25px);
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  line-height: 2;
+  line-height: 1.6;
+  padding: 0 10px;
 }
 
-h4 {
-  color: #000000;
-  font-family: Arial;
-  font-size: 25px;
-  text-align: center;
-  line-height: 1;
-}
 
 img {
   border-radius: 230px;
@@ -172,11 +167,12 @@ img {
 
 div#livro1 {
   background-color: #70707083;
-  width: 142vh;
-  height: 52vh;
+  width: 100%;
+  max-width: 1200px;
+  padding-bottom: 20px;
   justify-content: center;
   align-items: center;
-  margin-top: 5vh;
+  margin-top: 30px;
   border: 3px solid #c4c4c486;
   border-radius: 10px;
 }
@@ -184,7 +180,8 @@ div#livro1 {
 p {
   text-align: justify;
   font-family: Arial;
-  font-size: 16px;
+  font-size: clamp(15px, 1.3vw, 16px);
+  line-height: 1.5;
 }
 
 a {
@@ -194,25 +191,27 @@ a {
 }
 
 #livro2 img {
-  margin-right: 30px;
+  margin-right: clamp(20px, 3vw, 40px);
+  width: clamp(160px, 18vw, 220px);
+  height: auto;
+  flex-shrink: 0;
 }
 
 div#livro2 {
-  display: inline-block;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin: 0 clamp(20px, 4vw, 50px);
 }
 
 div#Poemas1 {
   background-color: #70707083;
-  width: 142vh;
-  height: 70vh;
+  width: 100%;
+  max-width: 1200px;
+  padding-bottom: 20px;
   justify-content: center;
   align-items: center;
-  margin-top: 5vh;
+  margin-top: 30px;
   border: 3px solid #c4c4c486;
   border-radius: 10px;
 }
@@ -222,5 +221,22 @@ div#Poemas2 > p {
   display: flex;
   justify-content: center;
   text-align: center;
+  padding: 0 20px;
+}
+
+/* Celular */
+@media (max-width: 768px) {
+  div#livro2 {
+    flex-direction: column;
+  }
+
+  #livro2 img {
+    margin: 0 0 20px 0;
+  }
+
+  /* Justificado em tela estreita abre buracos entre as palavras */
+  div#livro2 p {
+    text-align: left;
+  }
 }
 </style>
